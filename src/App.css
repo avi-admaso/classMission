@@ -3,13 +3,23 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height:   20vmin;
   pointer-events: none;
+  border-radius: 50%;
 }
+/* .balagan{
+width: 100%;
+display:flex ;
+} */
+@media (prefers-reduced-motion: no-preference){
+  .balagan{
+    animation: App-logo-spin infinite 1s linear;
 
+  }
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
